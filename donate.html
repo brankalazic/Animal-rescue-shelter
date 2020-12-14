@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Branka Lazic</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="main.css">
+	</head>
+	
+	<body>
+		<div class="header">
+			<div id="logo-i-menu">
+				<nav id="main-menu">
+					<a href="index.html">Početna</a>
+					<a href="index.html#druga">O nama</a>
+					<a href="adopt.html">Udomi</a>
+					<a href="volonteer.html">Volontiraj</a>
+					<a href="donate.html"  class="active">Doniraj</a>
+					<a href="contact.html">Kontakti</a>
+				</nav>	
+			</div>
+		</div>
+		
+	<div class="page" id="doniraj">
+		<h2> &#10022; Doniraj </h2>
+		
+		<p class="align-center-kontakt">
+			Vaše malo nekome znači mnogo!
+			<br/><br/>
+			Pomozite nam da zajedno izgradimo ovu zajednicu
+			i učinimo mnoge pse srećnima.
+		</p>
+	<div class="doniraj">
+		<form name="prva" method="POST" action="donacija.php">
+			<label for="cesto"> <b> Koliko često biste želeli da donirate novac? </b>
+			<br/><br/> </label>
+			<label for="sada"> Samo sada </label>
+			<input type="radio" name="cesto" id="sada" value="sada"> 
+			<br/><br/>
+			
+			<label for="mesecno"> Jednom u mesec dana </label>
+			<input type="radio" name="cesto" id="mesecno" value="mesecno">
+			<br/><br/>
+			
+			<label for="sest"> Jednom u šest meseci </label>
+			<input type="radio" name="cesto" id="sest" value="sest">
+			<br/><br/>
+			
+			<p><hr class="new1"></p>
+			
+			<label for="info"> <b> Osnovne informacije: </b>
+			<br/><br/>
+			
+			<label for="ime"> Vaše ime: </label>
+			<input type="text" id="ime" name="ime"> </br> <br/>
+			
+			<label for="prezime"> Vaše prezime:</label>
+			<input type="text" id="prezime" name="prezime"> </br> <br/>
+			
+			<label for="adresa"> Vaša adresa stanovanja: </label>
+			<input type="text" id="adresa" name="adresa"> </br> <br/>
+			
+			<label for="grad"> Grad stanovanja:</label>
+			<input type="text" id="grad" name="grad"> </br> <br/>
+			
+			<p><hr class="new1"></p>
+		
+			<label for="info"> <b> Prihvatamo sve vrste kreditnih i debitnih kratica: </b>
+									Visa, Mastercard, American Express, Discover... 
+			<br/><br/>
+		
+			<label for="placanje"> <b> Izaberite način na koji ćete donirati novac: </b> </label>
+			<select id="placanje" name="placanje">
+				<option value="VISA">Visa</option>
+				<option value="MASTER">Mastercard</option>
+				<option value="AMERICAN">American Express</option>
+				<option value="DISCOVER">Discover</option>
+			</select> 
+			<br/><br/>
+			
+			<label for="kolicina"> Želim da doniram </label> 
+			<input type="text" size="1" name="kolicina" id="kolicina"> RSD <br/><br/>
+		
+			<br/>
+					
+			<input type="submit" name="potvrdi" id="potvrdi" value="POTVRDI">
+			<input type="reset" name="ponisti" id="ponisti" value="PONIŠTI">
+		</form>
+	</div>	
+	</div>
+	
+	<div class="footer">
+		<p>Made by: Branka Lazic 2017200363</p>
+	</div>
+	
+	</body>
+	
+</html>

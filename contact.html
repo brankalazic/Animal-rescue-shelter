@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Branka Lazic</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="main.css">
+	</head>
+	
+	<body onload="document.email.tekst.focus()">
+		<div class="header">
+			<div id="logo-i-menu">
+				<nav id="main-menu">
+					<a href="index.html">Početna</a>
+					<a href="index.html#druga">O nama</a>
+					<a href="adopt.html">Udomi</a>
+					<a href="volonteer.html">Volontiraj</a>
+					<a href="donate.html">Doniraj</a>
+					<a href="contact.html" class="active">Kontakti</a>
+				</nav>	
+			</div>
+		</div>
+		
+	<div class="page" id="kontaktiraj">
+		<h2> &#10022; Kontaktiraj nas </h2>
+		
+		<p class="align-center-kontakt">
+					  Primedbe, pohvale, sugestije…		  
+			<br/><br/>Telefon prihvatilišta: 011/ 98 93 92
+			<br/><br/>Email: brankala28@gmail.com
+		</p>
+		
+		<div class="kontakt-forma">
+			<form id="kontakt-form" method="POST" action="contact-form.php">
+				<input name="ime" type="text" class="form-control" placeholder="Tvoje ime: ">
+				<br/>
+				<input name="email" type="text" class="form-control" placeholder="Tvoj e-mail: ">
+				<br/>
+				<textarea name="poruka" class="form-control" placeholder="Poruka: " rows="4"></textarea>
+				<br/>
+				<input type="submit" class="form-control submit" value="Pošalji poruku" onclick="focus();">
+			</form>
+		</div>	
+	</div>
+	<script src="validacija.js"></script>
+		<div class="footer">
+			<p>Made by: Branka Lazic 2017200363</p>
+		</div>
+	</body>
+</html>

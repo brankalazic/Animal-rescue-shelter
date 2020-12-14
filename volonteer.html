@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Branka Lazic</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="main.css">
+	</head>
+	
+	<body>
+		<div class="header">
+			<div id="logo-i-menu">
+				<nav id="main-menu">
+					<a href="index.html">Početna</a>
+					<a href="index.html#druga">O nama</a>
+					<a href="adopt.html">Udomi</a>
+					<a href="volonteer.html" class="active">Volontiraj</a>
+					<a href="donate.html">Doniraj</a>
+					<a href="contact.html">Kontakti</a>
+				</nav>	
+			</div>
+		</div>
+		
+		<div class="page" id="volontiraj">
+			<h2> &#10022; Volontiraj</h2>
+			
+			<p><hr class="new1"></p>
+		
+			<p class="align-right"><img src="assets/picture24.jpg" alt="slika" class="slika"> 
+				<span class="simbol">&#10022;</span> Ovo preduzeće je navelo da poziva sve građane, prave ljubitelje životinja, koji su zainteresovani da se druže sa napuštenim psima i mačkama u opuštenoj atmosferi u Prihvatilištu, koji žele da volontiranjem pomognu oko brige o štićenicima šetnjama i nežnostima, kao i da aktivno da učestvuju u što lakšem i boljem pronalaženju udomitelja samom socijalizacijom i druženjem 
+	 <br/><br/> <span class="simbol">&#10022;</span> "Čovekov jedini potpuno nesebičan prijatelj u ovom sebičnom svetu, jedini koji ga nikad ne napušta, jedini koji se nikad neće pokazati nezahvalnim i koji ga nikad neće izdati jest njegov pas. On će stajati verno uz njega u bogatstvu i u siromaštvu, u dobru i u zlu. Spavaće na hladnom tlu, na ledenom vetru i snegu samo da bude uz svoga gospodara. Lizaće ruku koja mu ne može ponuditi hranu, lizaće rane koje nastaju u dodiru s okrutnošću sveta. Čuvaće svog siromašnog gospodara kao kralja. Ostaće uz njega i kad ga svi drugi napuste.”
+	 <br/><br/> <span class="simbol">&#10022;</span> Ako pas ne želi da vam priđe nakon što vam je pogledao u lice, možda bi trebalo da proverite svoju savest.
+													 - Woodrow Wilson
+	 <br/><br/> <span class="simbol">&#10022;</span> Kako bi potpuno uživao u društvu psa, čovek ne bi uopšte trebao pokušavati da ga nauči da liči na čoveka. Nasuprot, čovek treba da se otvori prema mogućnosti da delimično postane pas.
+													 - Edward Hoagland
+			</p>
+		
+			<p class="align-right1"><img src="assets/picture25.jpg" alt="slika" class="slika"> 
+
+			<div class="prijava">		
+				<h1> &#10022; Napravi promenu! Prijavi se <br/>i volontiraj već danas</h1>
+				<form name="prva" method="POST" action="potvrda.php">
+					<label for="ime"> Tvoje ime: </label>
+					<input type="text" id="ime" name="ime"> </br> <br/>
+				
+					<label for="prezime"> Tvoje prezime:</label>
+					<input type="text" name="prezime" id="prezime"> </br> <br/>
+				
+					<label for="godina"> Unesi godinu rođenja: </label> 
+					<input type="number" name="godina" id="godina" min="1918" max="2000"> <br/><br/>
+
+					<label for="pol"> Izaberi pol: </label>
+				
+					<label for="muski">Muški</label>
+					<input type="radio" name="pol" id="muski" value="muski">
+				
+					<label for="zenski">Ženski</label>
+					<input type="radio" name="pol" id="zenski" value="zenski"><br/> <br/>
+
+					<label for="status"> Izaberi radni stauts: </label>
+					<select id="status" name="status">
+						<option value="ucenik">Učenik/ca</option>
+						<option value="student">Student</option>
+						<option value="zaposlen">Zaposlen/a</option>
+						<option value="nezaposlen">Nezaposlen/a</option>
+					
+					</select> <br/> <br/>
+					
+					<input type="submit" name="potvrdi" id="potvrdi" value="POTVRDI">
+					<input type="reset" name="ponisti" id="ponisti" value="PONIŠTI">
+				</form>
+			</div>
+			</p>
+	
+			<hr class="vertikala">
+		</div>
+		
+		<div class="footer">
+			<p>Made by: Branka Lazic 2017200363</p>
+		</div>
+	</body>
+</html>
